@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Teacher's Portal</title>
+   
+    <style>
+         *{
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font: 1.2rem sans-serif;
+}
+
+.htmlFiles {
+  display: flex;
+}
+
+.signupBtn{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: rgb(104, 151, 141);
+  color: rgb(252, 250, 250);
+}
+
+
+
+
+
+.xo {
+  margin: 22px 17px 22px 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.xoHead {
+  margin: 20px 5px ;
+  font-size: 30px;
+}
+/* .xoHead:hover{
+  border: 2px solid red;
+} */
+
+div input {
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  width: 90vw;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(104, 151, 141);
+  color: rgb(0, 0, 0);
+  border: none;
+ cursor: pointer;
+}
+.btn:hover{
+  border:3px solid black;
+}
+
+.welcom p {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a:hover{
+  color: rgb(30, 11, 199);
+  cursor: pointer;
+}
+
+    </style>
+  </head>
+  <body>
+      
+       <div class="nav">
+         <div>
+           <a href="index.html"> Teacher Portal</a>
+         </div>
+         <div class="htmlFiles" id="htmlFiles11">
+           <a href="index.html">Sign Up</a>
+           <a href="login.html">Login</a>
+         </div>
+       </div>
+
+    <div class="xo">
+      <div class="xoHead">
+        <p>Teachers Login</p>
+      </div>
+      <div class="xoMain">
+        <form>
+          <div class="email">
+            <input type="loginEmail"  id="lEmail" placeholder="Email">
+          </div>
+          <div class="pwd">
+            <input type="password"  id="lPwd" placeholder="Password">
+          </div>
+          <div class="signupBtn">
+            <input class="btn" type="button" onclick="teacherInfo()" value="Login" >
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
