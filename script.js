@@ -2,8 +2,8 @@
   function teacherVal() {
   let fname = document.getElementById("fname").value;
   let email = document.getElementById("email").value;
-  let pwdk = document.getElementById("pwd").value; //pwd
-  let pwdCC = document.getElementById("pwdC").value; //pwdC
+  let pwdk = document.getElementById("pwd").value;
+  let pwdCC = document.getElementById("pwdC").value;
   var users = JSON.parse(localStorage.getItem("users") || "[]");
   let rem =users.length && JSON.parse(localStorage.getItem("users")).some( (e) => e.email.toLowerCase() == email.toLowerCase() );   
   if (fname != "" && email != "" && pwdk != "") {
