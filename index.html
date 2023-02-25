@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher's Portal</title>
+    <link rel="stylesheet" href="/css&js/style.css" />
+  </head>
+
+  <body>
+ <!-- Starting html with Navbar -->
+    <div class="nav">
+      <div>
+        <a href="index.html"> Teacher Portal</a>
+      </div>
+      <div class="htmlFiles" id="htmlFiles11">
+        <a href="index.html">Sign Up</a>
+        <a href="login.html">Login</a>
+      </div>
+    </div>
+    <!-- here we Start the code for Signup form for Teacher portal and validate with js -->
+    <div class="xo">
+      <div class="xoHead">
+        <p>Teachers Signup</p>
+      </div>
+      <div class="xoMain">
+            <form>
+              <div class="fname">
+                <input type="text" id="fname" placeholder="Full Name" >
+              </div>
+    
+              <div class="email">
+                <input type="email"  id="email" placeholder="Email" />
+              </div>
+    
+              <div class="pwd">
+                <input type="password"  id="pwd" placeholder="Password" >
+              </div>
+    
+              <div class="pwdC">
+                <input type="password"  id="pwdC" placeholder="Confirm Password" >
+              </div>
+    
+              <div class="signupBtn">
+                <!-- When we click SignUp , it will call the teacherVal() function in js -->
+                <input  type="button" class="btn" value="Sign-Up" onclick="teacherVal()" >
+              </div>
+            </form>
+
+            <div class="mgs">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="/css&js/script.js"></script>
+  </body>
+</html>

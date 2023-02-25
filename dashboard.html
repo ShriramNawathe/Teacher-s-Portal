@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher's Portal</title>
+    <link rel="stylesheet" href="/css&js/style.css" />
+  </head>
+  <!-- trigger function s2 -->
+  <body onunload="teacherExit()">
+
+    <div class="nav">
+
+      <div class="title">
+        <a href="index.html"> Teacher Portal</a>
+      </div>
+
+      <div class="htmlFiles" id="htmlFiles11">
+        <a href="index.html" id="signupLink">Sign Up</a>
+        <a href="login.html" id="loginLink">Login</a>
+      </div>
+
+    </div>
+    <!-- css over -->
+
+   <!-- Main file -->
+    <div class="xo">
+        <div class="xoHead">
+          <h6>Teachers Dashboard</h6>
+        </div>
+
+        <div id="welcom1" class="welcom">
+            <!-- welcome Message -->
+
+        </div>
+
+        <br>
+
+        <div class="xoMain">
+            <h3>Teachers Dashboard</h3>
+            <form>
+    
+              <div id="effects">
+                <input type="text" id="pwd" placeholder="Password">
+              </div>
+    
+              <div id="effects" >
+                <input type="password"  id="pwdN" placeholder="Enter New Password">
+              </div>
+    
+              <div  id="effects">
+                <input type="password"  id="pwdC" placeholder="Confirm New-Password" >
+              </div>
+    
+              <div class="signupBtn">
+                <br>
+                <input type="button" class="btn" value="Change" onclick="teacherUpdate()" >
+                <br>
+              </div>
+
+                <div class="signupBtn">
+                <br>                
+                    <input type="button" class="btn" value="Logout" onclick="teacherExit()" >
+                    <br>
+              </div>
+    
+            </form>
+         </div>
+
+     
+
+    </div>
+
+    <script src="/css&js/val.js"></script>
+  </body>
+</html>
